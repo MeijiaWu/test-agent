@@ -1,0 +1,12 @@
+diff --git a/shop/paginate.py b/shop/paginate.py
+--- a/shop/paginate.py
++++ b/shop/paginate.py
+@@ -14,7 +14,7 @@ def paginate(items, page=1, limit=None):
+     if page < 1:
+         raise ValueError("page must be >= 1")
+     if limit is None:
+-        limit = 50
++        limit = DEFAULT_LIMIT
+     limit = min(limit, MAX_LIMIT)
+     start = (page - 1) * limit
+     return items[start:start + limit]

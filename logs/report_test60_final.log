@@ -1,0 +1,25 @@
+| run | n | success | 95% CI | Δ vs ref (paired) | 95% CI | median tokens | median test runs | median s |
+|---|---|---|---|---|---|---|---|---|
+| agent_test60_final | 60 | 43.3% | [31.7, 56.7] | +11.7 pp (n=60) | [-1.7, +25.0] | 73042 | 5 | 198 |
+| agent_nofix_test60_final | 60 | 38.3% | [26.7, 50.0] | +6.7 pp (n=60) | [-6.7, +20.0] | 52454 | 3 | 23 |
+| oneshot_test60_final | 60 | 31.7% | [20.0, 43.3] | - | - | 6392 | 0 | 24 |
+
+Harness check: the reference tests resolve 59/60 instances. Not solvable in this setup: astropy__astropy-7746.
+
+- agent_test60_final: 26/59 on solvable instances
+- agent_nofix_test60_final: 23/59 on solvable instances
+- oneshot_test60_final: 19/59 on solvable instances
+
+Agent self-assessment vs harness (verdict 'reproduces_issue' as a prediction of 'resolved'):
+
+- agent_test60_final: claimed 33, resolved 26, precision 76%, recall 96%
+  - confirmed by the candidate fix: 21, of which resolved 19; not confirmed: 12, of which resolved 6
+- agent_nofix_test60_final: claimed 34, resolved 23, precision 65%, recall 96%
+
+Success by issue year:
+
+| run | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
+|---|---|---|---|---|---|---|
+| agent_test60_final | 0/1 | 10/23 | 13/30 | 0/2 | 2/2 | 1/2 |
+| agent_nofix_test60_final | 0/1 | 7/23 | 13/30 | 0/2 | 2/2 | 1/2 |
+| oneshot_test60_final | 0/1 | 7/23 | 9/30 | 0/2 | 2/2 | 1/2 |

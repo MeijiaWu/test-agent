@@ -1,0 +1,70 @@
+git clone https://github.com/logic-star-ai/swt-bench third_party/swt-bench
+Cloning into 'third_party/swt-bench'...
+pip install -e third_party/swt-bench
+Obtaining file:///home/mika/test-agent/third_party/swt-bench
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: requests in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (2.34.2)
+Requirement already satisfied: datasets in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (5.1.0)
+Requirement already satisfied: docker in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (7.2.0)
+Requirement already satisfied: unidiff in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (1.0.1)
+Requirement already satisfied: python-dotenv in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (1.2.4)
+Requirement already satisfied: tqdm in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (4.70.1)
+Requirement already satisfied: fire in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (0.7.1)
+Requirement already satisfied: editdistance in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (0.8.1)
+Requirement already satisfied: GitPython in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (3.2.0)
+Requirement already satisfied: tabulate>=0.9.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from SWT-Bench==1.0.1) (0.10.0)
+Requirement already satisfied: filelock in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (4.0.12)
+Requirement already satisfied: numpy>=1.17 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (2.4.6)
+Requirement already satisfied: pyarrow>=24.0.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (25.0.1)
+Requirement already satisfied: dill<0.4.2,>=0.3.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (0.4.1)
+Requirement already satisfied: pandas in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (3.0.6)
+Requirement already satisfied: xxhash in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (4.0.1)
+Requirement already satisfied: multiprocess<0.70.20 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (0.70.19)
+Requirement already satisfied: fsspec<=2026.7.0,>=2023.1.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (2026.7.0)
+Requirement already satisfied: huggingface-hub<3.0,>=1.31.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (2.1.1)
+Requirement already satisfied: packaging in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (26.3)
+Requirement already satisfied: pyyaml>=5.1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from datasets->SWT-Bench==1.0.1) (6.0.3)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (3.14.4)
+Requirement already satisfied: click<9.0.0,>=8.4.2 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (8.5.0)
+Requirement already satisfied: hf-xet<2.0.0,>=1.6.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (1.7.0)
+Requirement already satisfied: httpx2<3,>=2.0.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (2.13.1)
+Requirement already satisfied: typing-extensions>=4.1.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (4.16.0)
+Requirement already satisfied: anyio>=4.10 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (4.15.1)
+Requirement already satisfied: httpcore2==2.13.1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (2.13.1)
+Requirement already satisfied: idna>=3.18 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (3.20)
+Requirement already satisfied: truststore>=0.10 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (0.10.4)
+Requirement already satisfied: h11>=0.16 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from httpcore2==2.13.1->httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets->SWT-Bench==1.0.1) (0.16.0)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (2.7.1)
+Requirement already satisfied: aiosignal>=1.4.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (26.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (6.9.1)
+Requirement already satisfied: propcache>=0.2.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (0.5.4)
+Requirement already satisfied: yarl<2.0,>=1.25.1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets->SWT-Bench==1.0.1) (1.25.1)
+Requirement already satisfied: urllib3>=1.26.0 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from docker->SWT-Bench==1.0.1) (2.8.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from requests->SWT-Bench==1.0.1) (3.5.2)
+Requirement already satisfied: certifi>=2023.5.7 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from requests->SWT-Bench==1.0.1) (2026.7.22)
+Requirement already satisfied: termcolor in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from fire->SWT-Bench==1.0.1) (3.3.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from GitPython->SWT-Bench==1.0.1) (4.0.12)
+Requirement already satisfied: smmap<6,>=3.0.1 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from gitdb<5,>=4.0.1->GitPython->SWT-Bench==1.0.1) (5.0.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from pandas->datasets->SWT-Bench==1.0.1) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /home/mika/miniconda3/envs/testagent/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas->datasets->SWT-Bench==1.0.1) (1.17.0)
+Building wheels for collected packages: SWT-Bench
+  Building editable for SWT-Bench (pyproject.toml): started
+  Building editable for SWT-Bench (pyproject.toml): finished with status 'done'
+  Created wheel for SWT-Bench: filename=swt_bench-1.0.1-0.editable-py3-none-any.whl size=2488 sha256=502dda635b391de881bfb67fb98b6bd6dbf4bf084bb850ae6a6c2cffe254ad15
+  Stored in directory: /home/mika/test-agent/pip-ephem-wheel-cache-v6rwzcl3/wheels/f4/d6/9c/aed058bb06a9564ffd36a53e883fb3ede8bfb491c8f3e3e30c
+Successfully built SWT-Bench
+Installing collected packages: SWT-Bench
+  Attempting uninstall: SWT-Bench
+    Found existing installation: SWT-Bench 1.0.1
+    Uninstalling SWT-Bench-1.0.1:
+      Successfully uninstalled SWT-Bench-1.0.1
+Successfully installed SWT-Bench-1.0.1

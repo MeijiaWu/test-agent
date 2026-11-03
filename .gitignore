@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.cache/
+work/
+runs/
+data/
+third_party/
+.venv/

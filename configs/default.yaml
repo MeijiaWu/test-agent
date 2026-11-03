@@ -1,0 +1,30 @@
+# Defaults. Override any key from the command line: --set agent.use_rag=false
+
+llm:
+  model: qwen                      # name the server expects; llama.cpp ignores it
+  base_url: http://localhost:8080/v1
+  api_key_env: OPENAI_API_KEY      # only read for hosted APIs
+  temperature: 0.0
+  max_tokens: 4096
+  timeout: 600
+  cache_dir: .cache/llm            # identical prompts are answered from disk (reproducible reruns)
+  max_retries: 2
+  json_mode: false                 # send response_format=json_object (llama-server, OpenAI support it)
+
+agent:
+  use_rag: true
+  use_review: true
+  use_exec: true
+  use_fix_check: true             # confirm reproductions against a self-written candidate fix
+  max_exec_rounds: 5
+  max_design_rounds: 2
+  max_fix_attempts: 3
+  max_tokens: 400000
+  context_chars: 24000
+  search_k: 8
+  embed_model: null
+
+sandbox:
+  timeout: 600
+  reruns: 1
+  swt_dir: third_party/swt-bench

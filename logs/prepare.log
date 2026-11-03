@@ -1,0 +1,6 @@
+python bench/prepare.py
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+276 instances -> data/swt_lite.jsonl
+splits: {'test': 219, 'dev': 57}
+repos: {'django/django': 113, 'sympy/sympy': 71, 'matplotlib/matplotlib': 23, 'scikit-learn/scikit-learn': 23, 'pytest-dev/pytest': 11, 'sphinx-doc/sphinx': 11, 'astropy/astropy': 6, 'pylint-dev/pylint': 6, 'pydata/xarray': 5, 'mwaskom/seaborn': 4, 'pallets/flask': 2, 'psf/requests': 1}
+issue years: {'2016': 2, '2017': 13, '2018': 20, '2019': 57, '2020': 58, '2021': 41, '2022': 57, '2023': 28}

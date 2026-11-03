@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testagent"
+version = "0.1.0"
+description = "An LLM test agent for the testing lifecycle: issue review, test design and review, test data, executable tests, failure triage and bug reports -- evaluated on SWT-bench."
+requires-python = ">=3.10"
+dependencies = [
+  "langgraph>=0.2",
+  "pydantic>=2.5",
+  "openai>=1.30",
+  "pyyaml>=6",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+]
+
+[project.optional-dependencies]
+embed = ["sentence-transformers>=2.6", "numpy"]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[project.scripts]
+testagent = "testagent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

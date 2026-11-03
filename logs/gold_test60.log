@@ -1,0 +1,743 @@
+gold_test60: 60 reference predictions -> /home/mika/test-agent/runs/gold_test60/predictions.jsonl
+<frozen runpy>:128: RuntimeWarning: 'src.main' found in sys.modules after import of package 'src', but prior to execution of 'src.main'; this may result in unpredictable behaviour
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Running 60 unevaluated instances...
+Found 60 existing instance images. Will reuse them.
+Running 60 instances...
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [04:43<4:38:56, 283.68s/it]  3%|▎         | 2/60 [04:44<2:17:33, 142.29s/it]  5%|▌         | 3/60 [08:25<2:40:01, 168.44s/it]  7%|▋         | 4/60 [08:31<1:59:25, 127.95s/it]  8%|▊         | 5/60 [10:13<1:52:33, 122.79s/it] 10%|█         | 6/60 [10:20<1:33:08, 103.49s/it] 12%|█▏        | 7/60 [12:02<1:31:09, 103.20s/it] 13%|█▎        | 8/60 [12:11<1:19:14, 91.43s/it] Base image exec.base.x86_64:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build. 15%|█▌        | 9/60 [14:05<1:19:52, 93.97s/it] 17%|█▋        | 10/60 [14:06<1:10:32, 84.65s/it] 18%|█▊        | 11/60 [15:56<1:11:01, 86.98s/it] 20%|██        | 12/60 [15:56<1:03:47, 79.75s/it] 22%|██▏       | 13/60 [17:45<1:04:10, 81.93s/it] 23%|██▎       | 14/60 [17:51<58:40, 76.54s/it]   25%|██▌       | 15/60 [19:35<58:47, 78.38s/it] 27%|██▋       | 16/60 [19:50<54:34, 74.41s/it]
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build. 28%|██▊       | 17/60 [21:27<54:15, 75.72s/it] 30%|███       | 18/60 [22:02<51:26, 73.48s/it] 32%|███▏      | 19/60 [23:16<50:14, 73.52s/it] 33%|███▎      | 20/60 [23:53<47:47, 71.69s/it] 35%|███▌      | 21/60 [25:06<46:36, 71.72s/it] 37%|███▋      | 22/60 [25:42<44:24, 70.13s/it] 38%|███▊      | 23/60 [26:57<43:21, 70.32s/it] 40%|████      | 24/60 [27:34<41:21, 68.93s/it] 42%|████▏     | 25/60 [28:48<40:20, 69.14s/it] 43%|████▎     | 26/60 [29:23<38:25, 67.82s/it]
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build. 45%|████▌     | 27/60 [30:37<37:25, 68.04s/it] 47%|████▋     | 28/60 [31:12<35:39, 66.87s/it] 48%|████▊     | 29/60 [32:28<34:42, 67.18s/it] 50%|█████     | 30/60 [33:00<33:00, 66.03s/it] 52%|█████▏    | 31/60 [34:17<32:04, 66.37s/it] 53%|█████▎    | 32/60 [34:49<30:28, 65.30s/it] 55%|█████▌    | 33/60 [36:07<29:33, 65.68s/it] 57%|█████▋    | 34/60 [36:38<28:01, 64.68s/it]
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build. 58%|█████▊    | 35/60 [37:58<27:07, 65.09s/it] 60%|██████    | 36/60 [38:53<25:55, 64.83s/it] 62%|██████▏   | 37/60 [39:53<24:48, 64.70s/it] 63%|██████▎   | 38/60 [40:52<23:39, 64.54s/it] 65%|██████▌   | 39/60 [41:45<22:28, 64.23s/it] 67%|██████▋   | 40/60 [42:44<21:22, 64.11s/it] 68%|██████▊   | 41/60 [43:47<20:17, 64.10s/it] 70%|███████   | 42/60 [44:32<19:05, 63.64s/it] 72%|███████▏  | 43/60 [45:47<18:06, 63.90s/it]
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build. 73%|███████▎  | 44/60 [46:23<16:52, 63.25s/it] 75%|███████▌  | 45/60 [47:40<15:53, 63.56s/it] 77%|███████▋  | 46/60 [48:11<14:40, 62.87s/it] 78%|███████▊  | 47/60 [49:31<13:41, 63.22s/it] 80%|████████  | 48/60 [50:06<12:31, 62.63s/it] 82%|████████▏ | 49/60 [51:23<11:32, 62.92s/it] 83%|████████▎ | 50/60 [51:58<10:23, 62.37s/it] 85%|████████▌ | 51/60 [53:16<09:24, 62.67s/it] 87%|████████▋ | 52/60 [53:48<08:16, 62.10s/it]
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build. 88%|████████▊ | 53/60 [55:10<07:17, 62.46s/it] 90%|█████████ | 54/60 [55:41<06:11, 61.88s/it] 92%|█████████▏| 55/60 [56:59<05:10, 62.17s/it] 93%|█████████▎| 56/60 [57:50<04:07, 61.97s/it] 95%|█████████▌| 57/60 [58:50<03:05, 61.95s/it] 97%|█████████▋| 58/60 [59:39<02:03, 61.71s/it] 98%|█████████▊| 59/60 [1:00:35<01:01, 61.61s/it]100%|██████████| 60/60 [1:01:23<00:00, 61.39s/it]100%|██████████| 60/60 [1:01:23<00:00, 61.39s/it]
+
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+All instances run.
+Cleaning cached images...
+Removed 0 images.
+  0%|          | 0/60 [00:00<?, ?it/s] 27%|██▋       | 16/60 [00:00<00:00, 147.48it/s] 65%|██████▌   | 39/60 [00:00<00:00, 191.22it/s]100%|██████████| 60/60 [00:00<00:00, 209.61it/s]
+Total instances: 60
+Instances completed: 0
+Mean coverage: 0.9676341589267285
+Mean coverage delta: 0.7718856782479072
+Instances resolved: 59
+Instances unresolved: 1
+Instances with errors: 0
+Instances still running: 0
+Still existing images: 60
+Report written to evaluation_results/gold_test60.gold_test60.json
+$ /home/mika/miniconda3/envs/testagent/bin/python -m src.main --dataset_name princeton-nlp/SWE-bench_Lite --filter_swt --predictions_path /home/mika/test-agent/runs/gold_test60/predictions.jsonl --max_workers 2 --run_id gold_test60
+gold_test60: resolved 59/60 = 98.3%  (not evaluated: 0)

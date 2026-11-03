@@ -1,0 +1,183 @@
+building 60 instance images (base -> env -> instance) in /home/mika/test-agent/third_party/swt-bench, 1 at a time
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+  ok    astropy__astropy-12907  ->  exec.eval.x86_64.13bad202ba417fcce45d9d.3d468fac9a9994bfbf6730:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+  ok    astropy__astropy-14182  ->  exec.eval.x86_64.13bad202ba417fcce45d9d.bf39a288b5961dc6a5906a:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+  ok    astropy__astropy-14365  ->  exec.eval.x86_64.13bad202ba417fcce45d9d.c240587e3a15f6a0aeb6fc:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.13bad202ba417fcce45d9d:latest already exists, skipping build.
+  ok    astropy__astropy-14995  ->  exec.eval.x86_64.13bad202ba417fcce45d9d.bc1f8b43afbef100783830:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.d81a7ecd2364696d235137:latest already exists, skipping build.
+  ok    astropy__astropy-7746  ->  exec.eval.x86_64.d81a7ecd2364696d235137.bee9fafe19d6c9386e464f:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-10914  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.4586a2d244604116ecaa14:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-10924  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.b32cb4f7eb8d719ccbf828:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11001  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.707916ad25523b39d01399:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11019  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.ba5364ee94218ed9b27dca:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11039  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.7c5a76536e48b2ecd4753f:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11049  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.3f318955526f636e5d5cb0:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11099  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.70bfea3faa6b94c79e6ddf:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11133  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.c70dd22ef4e1c836095a8a:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11179  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.e82c5018e95ecf046149b3:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11283  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.72237d4360f651d4cc67e8:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11564  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.50ac89ea71723ae922b4f7:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11583  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.8ab79fe829b7e0d445a57b:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11620  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.f84692a2dda557bb6b9227:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ee2ad6945f237e9160354f:latest already exists, skipping build.
+  ok    django__django-11630  ->  exec.eval.x86_64.ee2ad6945f237e9160354f.0c2653338c1a85bed2ad4a:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11797  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.403bf113acdb268a09201b:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11815  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.47886f5b0522a9bbdef96d:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11848  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.e28c6cd8c5b5ba713b649b:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11905  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.5f09ee7d510f375d11812b:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11910  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.5e8d3dd8dd72c6a52d0682:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-11999  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.f0188e3b8c1ac7e384d01c:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12113  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.4dd72826de7068016bfdaa:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12125  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.e625ea2aa4c03ffc9b8798:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12184  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.9cd6e3c5cfa110e1712cc8:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12284  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.3f6a53d05ed1386e7efe35:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12286  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.72e2f2b1619002e78b978d:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12308  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.bac020e250eb5ae34271b6:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12453  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.44d923b1ca4a8eabb0cede:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12470  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.5e1d9001414e16eac583d1:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12497  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.2bba31dd1c2e692f94a73f:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12589  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.89eb0dc1e6caf137e89f53:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12700  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.9b93efa28a95b9628f5fc5:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12708  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.4937c78aa13aeeb79d20ba:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.8d48ddaf97462eaa0fa9d9:latest already exists, skipping build.
+  ok    django__django-12747  ->  exec.eval.x86_64.8d48ddaf97462eaa0fa9d9.10cd2ca3d3289c93f11e7f:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-12856  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.5dbbbb3ab0824736d079c4:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-12908  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.d816f3bc2b68b0a5d90b13:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-12915  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.05ea3c12ff65bf7eb8ea85:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-12983  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.6a5d8271ccd20ac594520e:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13028  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.9a960126b5c1d849de2b89:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13033  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.c60d0357945b08f4860123:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13158  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.da87695267cf460b9b73b5:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13220  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.1c004c7e39869680fbeb1a:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13265  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.195aefb987acd45bae3ea2:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13315  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.e851bba4ae823c4c788821:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13321  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.ad9fb9a941c45cf1bc80f6:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13401  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.b55a2352145aab09aebfa0:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+  ok    django__django-13447  ->  exec.eval.x86_64.ebed327f02c059ebd6024a.08afa4e69c09abe9db9966:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13448  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.30ac28e638b67f9090350d:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13551  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.62496b314d3834b84ec63b:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13590  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.4fa4af20abceab815de3ab:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13660  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.0302ccd9d89ee114ad7382:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+  ok    django__django-13710  ->  exec.eval.x86_64.ebed327f02c059ebd6024a.e9e479ac494a5d8437325d:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13757  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.928c20b7c051c27417341a:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.f904a9d2e0f61fc0d70077:latest already exists, skipping build.
+  ok    django__django-13768  ->  exec.eval.x86_64.f904a9d2e0f61fc0d70077.2a8df18d85092e99067d03:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+  ok    django__django-13925  ->  exec.eval.x86_64.ebed327f02c059ebd6024a.af67c5ddb19d224b480540:latest
+Base image exec.base.x86_64:latest already exists, skipping build.
+Env image exec.env.x86_64.ebed327f02c059ebd6024a:latest already exists, skipping build.
+  ok    django__django-13933  ->  exec.eval.x86_64.ebed327f02c059ebd6024a.d9368bf13837c9f70ac20d:latest
+built 60/60; failed: none
+build logs: /home/mika/test-agent/third_party/swt-bench/image_build_logs/
